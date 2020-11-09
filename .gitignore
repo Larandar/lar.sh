@@ -9,3 +9,6 @@ wasm-pack.log
 worker/
 node_modules/
 .cargo-ok
+# Environment file
+.env
+package-lock.json

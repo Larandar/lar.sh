@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write '**/*.{js,css,json,md}'"
+    "dev": "env $(cat .env) wrangler dev"
   },
   "author": "Adrien",
   "license": "MIT",
